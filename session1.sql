@@ -1,4 +1,5 @@
 -- counting records on customers table
+
 --
 SELECT count(*) from sh.CUSTOMERS;
 
