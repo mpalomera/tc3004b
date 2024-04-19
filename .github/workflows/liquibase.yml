@@ -36,7 +36,7 @@ jobs:
           pwd
           mkdir oracle
           echo "$CWALLET_SSO" | base64 -d > oracle/cwalle.sso
-          echo "$EWALLET_P12" | base64 -d > oracle/ewallet.p12
+          #echo "$EWALLET_P12" | base64 -d > oracle/ewallet.p12
           echo "$EWALLET_PEM" | base64 -d > oracle/ewallet.pem
           echo "$KEYSTORE_JKS" | base64 -d > oracle/keystore.jks
           echo "$OJDBC_PROPERTIES" | base64 -d > oracle/ojdbc.properties
