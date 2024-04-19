@@ -42,7 +42,7 @@ jobs:
           echo "$OJDBC_PROPERTIES" | base64 -d > oracle/ojdbc.properties
           echo "$SQLNET_ORA" | base64 -d > oracle/sqlnet.ora
           echo "$TNSNAMES_ORA" | base64 -d > oracle/tnsnames.ora
-          #echo "$TRUSTSTORE_JKS" | base64 -d > oracle/truststore.jks
+          echo "$TRUSTSTORE_JKS" | base64 -d > oracle/truststore.jks
           ls oracle/
           
           
