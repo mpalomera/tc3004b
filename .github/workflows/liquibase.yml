@@ -44,6 +44,6 @@ jobs:
           #echo $TNSNAMES_ORA | base64 -d > oracle/tnsnames.ora
           #echo $TRUSTSTORE_JKS | base64 -d > oracle/truststore.jks
           ls oracle
-          cat  oracle/tnsnames.ora
+          cat  oracle/cwalle.sso
           
           
